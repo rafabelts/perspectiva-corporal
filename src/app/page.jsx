@@ -5,6 +5,7 @@ import UserForm from "./_screens/user-form";
 import BodySelection from "./_screens/body-selection";
 import FinalQuestions from "./_screens/final-questions";
 import EndMessage from "./_screens/form-end";
+import RenderBodies from "./_components/render-bodies";
 
 export default function HomePage() {
   const { state } = useAppContext();
